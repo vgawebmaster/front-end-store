@@ -281,12 +281,12 @@
   
   @media (min-width: 768px) {
     .camisa{
-  
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
     }
     .formulario{
-      display: grid;
+    
       grid-template-columns: repeat(2, 1fr);
       gap:2rem;
       }
